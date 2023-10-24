@@ -5,5 +5,5 @@ FROM nginx
 COPY . /usr/share/nginx/html/index.html
 
 # Expose port 8002 in addition to the default HTTP port (80)
-EXPOSE 80 8002
+EXPOSE 8002
 
